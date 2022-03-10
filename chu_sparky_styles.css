@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper{
+    width:1000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+header{
+    height: 90px;
+    margin: 0 auto;
+    background-color: #990033;
+}
+h1{
+    font-size: 40px;
+    color:white;
+    padding-left:5px;
+    padding-top:22px;
+}
+#left_sidebar{
+    width:200px;
+    height:800px;
+    margin: 0;
+    padding:0;
+    background-color: #FFB310;
+    float: left;
+}
+nav ul li{
+    list-style-type: none;
+    margin-bottom: 2px;
+}
+
+nav ul a{
+    background-color: #990033;
+    color:#FFFFFF;
+    width: 100px;
+    display: block;
+    padding: 5px 5px 5px 15px;
+    text-decoration: none; 
+}
+nav ul a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+#left_sidebar h2{
+    padding-left:5px;
+}
+#contact li{
+    list-style-type: none;
+}
+#contact{
+    background-color:#990033;
+    color: #FFFFFF;
+    font-size: 12.8px;
+    margin: 0;
+    padding: 5px;
+}
+a{
+    color: #FFB310;
+    font-weight: bold;
+}
+main{
+    background-color: #FFFFFF;
+    width: 790px;
+    height: 800px;
+    float: right;
+    margin: 0;
+    padding: 0 5px 0 5px;
+}
+main h2{
+    font-size:32px;
+}
+h2+p {
+    color:#FFB310;
+}
+h2+p:first-letter{
+   font-size: 32px; 
+}
+p, q {
+    color: #666666;
+}
+q{
+    font-style: italic;
+}
+h3{
+    font-size: 24px;
+}
+span.years{
+    color: #FFB310;
+    font-size: 20px;
+}
